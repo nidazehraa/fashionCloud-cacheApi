@@ -27,14 +27,14 @@ This API call will remove all entries from database
 1) Install app dependencies.
 ```javascript
 npm install
-launch mongodb instance
+launch mongodb instance (docker run --name cache-mongo -d --net=host mongo)
 ```
 
 2) Run the tests
 ```javascript
 npm run test
 ```
-3) Run AP
+3) Run APP
 ```javascript
 node app.js
 ```
