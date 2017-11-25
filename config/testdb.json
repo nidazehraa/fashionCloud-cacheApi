@@ -1,0 +1,14 @@
+{
+	"test": {
+		"mongodb": {
+			"url": "mongodb://127.0.0.1:27017/fashioncloud-test",
+			"autoReconnect": true,
+			"autoRemove": "native",
+			"autoRemoveInterval": 3,
+			"seed": true
+		},
+		"cache": {
+			"maxNumberOfDocuments": 3
+		}
+	}
+}
