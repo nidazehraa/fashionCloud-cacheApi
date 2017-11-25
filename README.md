@@ -24,8 +24,6 @@ This API call will remove all entries from database
 
 ## Run project
 
-* Node version 4.4.7
-
 1) Install app dependencies.
 ```javascript
 npm install
@@ -35,8 +33,7 @@ npm install
 ```javascript
 npm run test
 ```
-
-3) Run the app
+3) Run AP
 ```javascript
-npm start
+node app.js
 ```
