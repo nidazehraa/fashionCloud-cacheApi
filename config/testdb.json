@@ -8,7 +8,7 @@
 			"seed": true
 		},
 		"cache": {
-			"maxNumberOfDocuments": 3
+			"maxLimit": 3
 		}
 	}
 }

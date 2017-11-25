@@ -10,7 +10,7 @@ var checkAndReplaceRecord = function(next) {
 	self.modifiedAt = new Date();
 	if (!self.isNew) return next();
 	self.model('Cache').count({}, function(err, count) {
-		//check for the record that has been last modified and replace
+		//check for the record that has been least modified and replace
 		if (count + 1 > config.cache.maxLimit) {
 			self.model('Cache')
 				.findOne({}, {
