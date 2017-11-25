@@ -27,6 +27,7 @@ This API call will remove all entries from database
 1) Install app dependencies.
 ```javascript
 npm install
+launch mongodb instance
 ```
 
 2) Run the tests
